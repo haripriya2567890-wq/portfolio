@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
+
+
+.todo-container h1{
+    text-align:center;
+    margin-bottom:20px;
+    color:#ffffff;
+}
+
+.input-section{
+    display:flex;
+    gap:10px;
+}
+
+.input-section input{
+    flex:1;
+    padding:12px;
+    border:2px solid #203a43;
+    border-radius:8px;
+    outline:none;
+    font-size:16px;
+}
+
+.input-section button{
+    padding:12px 18px;
+    border:none;
+    background:#203a43;
+    color:white;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+    transition:0.3s;
+}
+
+.input-section button:hover{
+    background:#0f2027;
+}
+
+#taskList{
+    margin-top:20px;
+    list-style:none;
+}
+
+#taskList li{
+    background:#f1f1f1;
+    padding:12px;
+    margin-bottom:10px;
+    border-radius:8px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.delete-btn{
+    background:red;
+    color:white;
+    border:none;
+    padding:6px 10px;
+    border-radius:5px;
+    cursor:pointer;
+}
